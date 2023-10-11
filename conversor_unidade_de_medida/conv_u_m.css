@@ -18,9 +18,8 @@ main{
 }
 
 #portaseabrindo{
-    background-color: white;
     width: 456.5px;
-    height: 80px;
+    height: 60px;
     margin-top: 50px;
     margin-left: 390px;
 }
@@ -38,4 +37,16 @@ main{
     width: 200px;
     height: 50px;
     font-size: 43px;
+}
+
+#gluposo{
+    margin-left: 390px;
+    width: 205px;
+    height: 20px;
+}
+
+#lodoso{
+    margin-left: 43px;
+    width: 205px;
+    height: 20px;
 }
