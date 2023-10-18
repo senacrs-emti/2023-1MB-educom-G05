@@ -1,8 +1,13 @@
+*{
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 font{
     text-align: justify;
 }
 img{
     margin-left: 470px;
+    border-radius: 30px;
 }
 h1{
     text-align: center;

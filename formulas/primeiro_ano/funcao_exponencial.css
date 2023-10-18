@@ -1,3 +1,7 @@
+*{
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h1{
     text-align: center;
 }
@@ -7,6 +11,7 @@ h3{
 img{
     margin-left: 486px;
     width: 30%;
+    border-radius: 30px;
 }
 h2{
     text-align: center;
