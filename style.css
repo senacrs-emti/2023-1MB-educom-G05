@@ -24,3 +24,43 @@ header a{
     text-decoration: none;
     color: black;
 }
+#calculadora{
+    width: 40%;
+    height: 300px;
+    margin-top: 30px;
+    border: 2px black solid;
+    margin-left: 80px;
+    background-color: gray;
+    float: left;
+}
+#juros{
+    width: 40%;
+    height: 300px;
+    margin-top: 30px;
+    border: 2px black solid;
+    margin-left: 80px;
+    background-color: gray;
+    float: left;
+}
+#conversor{
+    width: 40%;
+    height: 300px;
+    margin-top: 30px;
+    border: 2px black solid;
+    margin-left: 80px;
+    background-color: gray;
+    float: left;
+}
+#formulas{
+    width: 40%;
+    height: 300px;
+    margin-top: 30px;
+    border: 2px black solid;
+    margin-left: 80px;
+    background-color: gray;
+    float: left;
+}
+
+h2{
+    text-align: center;
+}
