@@ -24,6 +24,10 @@ header a{
     text-decoration: none;
     color: black;
 }
+main{
+    background-color: antiquewhite;
+    height: 700px;
+}
 #calculadora{
     width: 40%;
     height: 300px;
@@ -63,4 +67,31 @@ header a{
 
 h2{
     text-align: center;
+}
+#foto{
+    width: 300px;
+    height: 150px;
+    margin-left: 110px;
+    margin-top: 12px;
+}
+#texto{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.work_link {
+    margin-left: 210px;
+    margin-top: 25px;
+}
+footer{
+    background-color: cadetblue;
+    width: 100%;
+    height: 200px;
+}
+footer h1{
+    margin-left: 20px;
+}
+#h2footer{
+    margin-left: -1050px;
+    margin-top: 15px;
 }
