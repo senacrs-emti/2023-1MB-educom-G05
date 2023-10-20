@@ -54,4 +54,13 @@ main{
 #gabigol{
     margin-left: 400px;
     margin-top: 20px;
+    float: left;
+}
+
+#gabigordo{
+    padding: 3px;
+    width: 313px;
+    margin-left: 500px;
+    margin-top: 18px;
+    color: white;
 }
