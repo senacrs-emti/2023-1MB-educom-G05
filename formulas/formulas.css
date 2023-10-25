@@ -10,6 +10,11 @@ header{
     width: 100%;
     height: 100px;
 }
+main{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 650px;
+}
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -18,7 +23,15 @@ h1{
 }
 h2{
     margin-left: 20px;
-    margin-top: 40px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
@@ -27,11 +40,18 @@ h2{
     font-size: medium;
     color: black;
     margin-top: 20px;
-    margin-left: 20px;
-    height: 25px;
+    margin-left: 25px;
+    height: 30px;
     float: left;
+    margin: 17px;
 }
-#titulo{
+#botao2{
     margin-left: 20px;
-    margin-top: 40px;
+    float: left;
+    color: black;
+    font-size: medium;
+    margin-top: 20px;
+    height: 30px;
+    margin: 17px;
 }
+
