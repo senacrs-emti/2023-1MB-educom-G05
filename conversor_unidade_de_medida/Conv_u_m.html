@@ -20,9 +20,9 @@
             <option value="5">Velocidade</option>
         </select>
         <div id="portaseabrindo">
-            <input type="number" name="Numero1" class="gosmanumero">
+            <input type="number" name="Numero1" class="gosmanumero" id="valor">
             <h1>=</h1>
-            <input type="number" name="Numero2" class="gosmanumero">
+            <input type="number" name="Numero2" class="gosmanumero" id="resultado">
         </div>
             <select name="germesbem" id="gluposo">
                 <option value="1">Quilômetro</option>
@@ -35,7 +35,9 @@
                 <option value="3">Centímetro</option>
             </select>
         <p id="gabigol" style="color: black; background-color: yellow; width: 55px; border-radius: 5px; padding: 2px;">Fórmula</p>
-        <div id="gabigordo">+ adição | - subtração | * multiplicação | / divisão</div>
+        <div id="gabigordo">-</div>
+
+        <input type="button" id="Calcula" value="Calcular" onclick="KgParaT()">
     </main>
 
     <footer>
