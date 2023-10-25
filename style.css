@@ -19,6 +19,8 @@ text-align: center;
     color: black;
     margin-top: 20px;
     margin-left: 110px;
+    border-radius: 10px;
+    height: 30px;
 }
 header a{
     text-decoration: none;

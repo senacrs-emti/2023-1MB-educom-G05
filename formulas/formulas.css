@@ -16,18 +16,22 @@ h1{
     text-align: center;
     padding-top: 25px;
 }
-#titulo{
-    margin-left: 20px;
-    float: left;
-}
 h2{
     margin-left: 20px;
     margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 #botao{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     color: black;
     margin-top: 20px;
-    margin-left: 110px;
+    margin-left: 20px;
+    height: 25px;
+    float: left;
+}
+#titulo{
+    margin-left: 20px;
+    margin-top: 40px;
 }
