@@ -1,0 +1,16 @@
+*{
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+img{
+    width: 30%;
+    margin-left: 380px;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: justify;
+}
