@@ -4,9 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PFM - Geometria Espacial</title>
-    <link rel="stylesheet" href=.geometria_espacial.css">
+    <link rel="stylesheet" href="./geometria_espacial.css">
 </head>
 <body>
-    3
+    <h1 style="color: white;">
+        Geometrica Espacial
+    </h1>
+    <h2 style="color: white;">
+        Conceitos intuitivos de Geometria Espacial
+    </h2>
+    <h3 style="color: white;">
+        A geometria espacial complementa a geometria euclidiana que foca as figuras planas. A geometria espacial se baseia em dois conceitos: o espaço e a o plano. O espaço é tudo que está ao nosso redor, já o plano é toda a superfície.
+        <br>
+        1)por três pontos não alinhados,
+        <br>
+        2) por uma reta e outro ponto exterior,
+        <br>
+        3) por duas retas que se cruzam,
+        <br>
+        4) por duas retas paralelas.
+        <br>
+        <br>
+        Duas retas (linhas) são paralelas quando estão no mesmo plano; duas retas linhas se intersectam são quando tem um ponto comum, duas retas são coincidentes quando têm dois pontos em comum e se sobrepõem; já duas retas são transversais quando não estão no mesmo plano e não têm nenhum ponto em comum.
+        <br>
+        Existem 3 tipos de possibilidades quando as posições relativas apresentam dois planos no espaço:
+        <br>
+        1) dois planos são paralelos porque não têm nenhum ponto em comum,
+        <br>
+        2) dois planos são intersecantes quando têm uma reta em comum e se cruzam,
+        <br>
+        3) dois planos são coincidentes quando tem três pontos em comum que não estão em linha reta, portanto, um plano está sobreposto ao outro.
+        <br>
+        Além das posições de retas e planos, existem também as posições relativas de uma reta e um plano, das quais há três opções: as paralelas, as intersecantes e as coincidentes.
+    </h3>
+    <h2 style="color: white;">
+        Poliedros
+    </h2>
+    <img src="https://static.todamateria.com.br/upload/po/li/poliedroelementos.jpg">
+    <h3 style="color: white;">
+        Os poliedros são sólidos geométricos limitados por um número finito de polígonos planos. Esses polígonos formam as faces do poliedro.
+        <br>
+        A intersecção de duas faces é chamada de aresta e o ponto comum de três ou mais arestas é chamado de vértice, conforme indicado na imagem abaixo.   
+    </h3>
+    <h2 style="color: white;">
+        Poliedro Convexo
+    </h2>
+    <img src="https://static.todamateria.com.br/upload/po/li/poliedroconvexoconcavo.jpg?auto_optimize=low">
+    <h3 style="color: white;">
+        Quando um segmento de reta que liga 2 pontos de um poliedro estiver totalmente contido nele, então será convexo.
+    </h3>
+    <h2 style="color: white;">
+        Teorema de Euler
+    </h2>
+    <h3 style="color: white;">
+        F + V = 2 + A ou V - A + F = 2
+        <br>
+        <br>
+        Lê-se: F: número de faces V: número de vértices A: número de arestas
+    </h3>
+    <h3 style="color: white;">
+        Exemplo: Um poliedro convexo é formado por exatamente 4 triângulos e 1 quadrado. Quantos vértices tem esse poliedro?
+        <br>
+        <br>
+        Solução: Primeiro precisamos definir a quantidade de faces e arestas. Como o poliedro possui 4 triângulos e 1 quadrado, então possui 5 faces. Para encontrar o número de aresta podemos calcular o número total de lados e dividir o resultado por dois, visto que cada aresta é a intersecção de dois lados:
+    </h3>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAAjCAYAAAA0RYCzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAABGJhU0UAAAAXQ/cXWQAAA3VJREFUeNrtW01kXFEYvUZERZSoqqoKMSKyGKWqIqJKdVGzqBARs6gaoqIqi26rq5JFF1HdVHVVVaqiIiJURUUWoaKyqBqqi6ruo2qMkn6n8007Xmbm/c5972bO4Sxyc9+bb7535t5z7/2eMdnBZeG68JewKqwIl4UnItyrKDzocryjwnvCjzHuYSPOpL7HBeEr4b4+n1XhJUP8w6ZwWtjf1HZOuBHyPoPCTxaE8Vw4H+NzbMWZxPeYV8GO6t/HhSXhFmXrj/2Q/Z8IyxGEEVVIUa+LGme30C6OceEHyjAaRoSfQ/SfFL6LKCybAo4Tp20B44c2RymGwynhTfXB1wJeA+uxJxzOuIDjxmlbwBhATlOSwZPYzMUQ1y4Jb8cQli0Bx43TtoCr6n1XdIFdU0tRolzbY0h4XbgTcKVbEG6HFNZBACYt4Chxpi1gtO/qTNgnzKkFwuy4QKn6r9R3AvRDn3xMYdgYgZOI07aAsYg+06IdO0TfKVF/VCNYj26PpFGvSyJO2wJe11G3FWqUp/+UW7HkTW1vo7kyAsMmzLZoHws4O/YM3gtnmnwWTua+Cm90GMmyLuBuxGlbwP36bMr6bICLupNyJeuiWrT4WVPCNbUMIE7mihkWRhAL4IKAg3yPk8Knwp/C3yroKUvxDQgf6WdDFxttPPkhzKrH6ePkQKSIZ8IHqkPMBktBrMuQThFvTX07iyCysojPBVk8No4P4T8fM4dEioB1GPQI+FunCybUiwI40v0SwUNlaXvoqMHFfMeJGf73jkefD9t1hs/AMeHZprZd3TIhiDRQUMtQ08Xjj04LyPvCu542GOiFFH+ZvUoX8500UPD0wtSLiRp14ufVFRS8ncd0tPUCtQirtBC0ECnEvNJKqKZ+RrDpbdzqcHNupxFZ2IFo+z+8MrLcofNLE7wulyCSAl65yrdoH1cv/BfwF3uerQovyj4CJ4huYFpFDMuQM/9LDOCBbzU64U3Tos+NcHRXYT6JFDCja7Oa2gbsRPBwTYHC7NemXvOKBOHV8hLzwXy4Avya55rsE7zVtundlxiZjyOAYV0TEMyHs6gyBcyHq5gwh1+8ZD4IJ3DM1GtNJ5kK5sM1oAb6jfAqU8F8uIYRfVh5poL5cA0oYsL7XgNMBfPhGlCwj5NIFioxH05izbBYn/lwGKxhdjwffwCni57VL7YceAAAAQF0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bWk+QTwvbWk+PG1vPj08L21vPjxtZnJhYz48bXJvdz48bW4+MzwvbW4+PG1vPi48L21vPjxtbj40PC9tbj48bW8+KzwvbW8+PG1uPjE8L21uPjxtbz4uPC9tbz48bW4+NDwvbW4+PC9tcm93Pjxtbj4yPC9tbj48L21mcmFjPjxtbz49PC9tbz48bWZyYWM+PG1uPjE2PC9tbj48bW4+MjwvbW4+PC9tZnJhYz48bW8+PTwvbW8+PG1uPjg8L21uPjwvbWF0aD6kGauMAAAAAElFTkSuQmCC" alt="">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAA8CAYAAADv7g0/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAABGJhU0UAAAAdoyL+RwAABANJREFUeNrtnEGEVVEYx49njORtMosxRobMYow8kSQZY8gYo8UYMkaLZEhaJIkWSatoMZK0SZIWiSdPMjIkY4yRyEiLjBgtWrQbGSPXiNf39b5Td2733XvPeef73ivfjz/33XfnnXu+e853Tuf8u8b8YQV0yKRzBPTe8HPJyBCB6gntgEqBfv846Bloi34XY3e62cWPQDNNvnsNOsEcjBm6yS7mcgYFGtEyaBZUps/DoFU69xdnQLdTzo+AlphvdB/oA+gVaMrxb+uO1+PvPzHyDFAdUwNcSzn/BlRhvqn71Brw4d9jDvwN0FXTHqK0k9jFNxPnJgRaxzHQAh33gjaYA1916FX1AnKp52qzL9dBe2Kf31EX4aKLytgfO7cGGmIM/KeU4PUzNy6M6VsadFN5Cpqk41OgeeYWgd3+SuLcTdAFpjJx1rItnF5w/HoOGs+6CINwno7xCfUw3tAQte4ko6AXTC3+KM3QjFCqOUBBH8wr6CToMQ1y15hbwkpGZVymlS6Bn6VpswTYsB6A9ha5uIdmMauJXB+ac6A7Gd/HU17IwN8FzQkEvZcGcad/k3yjwHDRR/PZcsY1czkPxjfwNYcH2goLjhOE34MbJ1VKaVn00+wjNJvMPbnI2KAoiqIoiqIoiqIoiqJ0MNK+GlynxmVa3BHCTeBFw7MFJ7lg5eSnsUj7ah6axkoorll3g26Zxq4XR+ClcPLTWKR9NUmrQ4laSeiAtnsptqmfJh5gSV/Nttm9GYKB//IfBj6tke1C2leD+f1i7DP6TuY7JPBifhqLpK+mQqllh3LjV+p1HIHfoQHvJeiyyd52DEmun8Yi5asZoJ7URwMrctg0XGQVplbYRWVcpwY2xBz0Qn4ai5SvptYkwGMOA3kruXucehlXqinsp7FI+Woi34Eo4KAZMdXNyU9jkfLVfGzSGoYp13MH/qBxN8cWwctPY+H21SDTFPwxmkaW6HgjlupCBb5GMwtbzgSVM81QLy8/jYXbV2Nig/cazTgiyrlTTOWgR+cHTZertATCgfppFEVRFEVRFEVRFEVR/nEkfTVe/hNPcNUTt/y+m8ZiHC6Y4f8o5Njk8Vokk/TVePlPPMEdLVwC7o6dwwa2yBR4Z9r5vhok138SopIxtjol8O18X40lEgo87omud0rgfXw14v6TFiuJW3NnKc9PMtTLuzFIv6/GUth/4lnJZNC4Xjrn7eFx9dWEoKj/JETvwrKm6CGPMtbJ2cPj6qsR958EyvFlk+1MDplC8zw8v5B8X42X/yTgrCYycuSWJeWracl/EiDwFcPzdpA0Cnt4JHw1LflPHAO/TOMVPmTr3/lMvTo0LXl4JHw1kv6TEXrQEWnJ5L8vx5fCHp6fjzOlgnO+b0kAAAFLdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1pPlY8L21pPjxtbz4tPC9tbz48bWk+QTwvbWk+PG1vPis8L21vPjxtaT5GPC9taT48bW8+PTwvbW8+PG1uPjI8L21uPjxtc3BhY2UgbGluZWJyZWFrPSJuZXdsaW5lIi8+PG1pPlY8L21pPjxtbz4tPC9tbz48bW4+ODwvbW4+PG1vPis8L21vPjxtbj41PC9tbj48bW8+PTwvbW8+PG1uPjI8L21uPjxtc3BhY2UgbGluZWJyZWFrPSJuZXdsaW5lIi8+PG1pPlY8L21pPjxtbz49PC9tbz48bW4+MjwvbW4+PG1vPis8L21vPjxtbj4zPC9tbj48bW8+PTwvbW8+PG1uPjU8L21uPjwvbWF0aD78tYhAAAAAAElFTkSuQmCC" alt="">
+    <h3 style="color: white;">
+        Então, o poliedro possui 5 vértices.
+    </h3>
+    <h2 style="color: white;">
+        Poliedros regulares
+    </h2>
+    <h3 style="color: white;">
+        Os poliedros convexos são regulares quando suas faces são compostas por polígonos regulares e congruentes entre si. Além disso, o número de aresta que concorre em cada vértice é o mesmo.
+
+        Devemos lembrar que os polígonos regulares são aqueles que possuem todos os lados e ângulos congruentes, ou seja, com mesma medida.
+
+        Existem apenas cinco poliedros regulares convexos, que são também chamados de “Sólidos Platônicos” ou “Poliedros de Platão”. São eles: tetraedro, hexaedro (cubo), octaedro, dodecaedro, icosaedro.
+        <br>
+        <br>
+        Tetraedro: sólido geométrico formado por 4 vértices, 4 faces triangulares e 6 arestas.
+        <br>
+        Hexaedro: sólido geométrico formado por 8 vértices, 6 faces quadrangulares e 12 arestas.
+        <br>
+        Octaedro: sólido geométrico formado por 6 vértices, 8 faces triangulares e 12 arestas.
+        <br>
+        Dodecaedro: sólido geométrico formado por 20 vértices, 12 faces pentagonais e 30 arestas.
+        <br>
+        Icosaedro: sólido geométrico formado por 12 vértices, 20 faces triangulares e 30 arestas.
+    </h3>
+    <h2 style="color: white;">
+        Prismas
+    </h2>
+    <img src="https://static.todamateria.com.br/upload/pr/is/prisma2.jpg?auto_optimize=low" alt="">
+    <h3 style="color: white;">
+        Os prismas são sólidos geométricos que apresentam duas bases formadas por polígonos congruentes e localizados em planos paralelos. Suas faces laterais são paralelogramos ou retângulos. A inclinação das areas vão indicar se é um prisma reto ou um prisma oblíquo.
+    </h3>
+    <h2 style="color: white;">
+        Pirâmide
+    </h2>
+    <h3 style= "color: white;">
+        As pirâmides são sólidos geométricos formados por uma base poligonal e um vértice (vértice da pirâmide) que une todas as faces laterais triangulares.
+    </h3>
+    <img src="https://static.todamateria.com.br/upload/pi/ra/piramide.jpg?auto_optimize=low" alt="">
+    <h2 style="color: white;">
+        Prismas
+    </h2>
+    <h3 style="color: white;">
+        Um prisma é composto pelos seguintes elementos:
+        <br>
+        Bases: são as faces congruentes e paralelas.
+        <br>
+        Altura: é a menor distância entre as suas bases.
+        <br>
+        Arestas das Bases: são os lados das bases do polígono.
+        <br>
+        Arestas laterais: são os lados das faces que não pertencem às bases.
+        <br>
+        Faces laterais: são todas paralelogramos (lados opostos paralelos).
+    </h3>
+    <img src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/prisma-elementos-matematica.jpg" alt="">
+    <h3 style="color: white;">
+        Se lê:
+        <br>
+        <br>
+        R e S são as bases das regiões poligonais.
+        <br>
+        Altura é a distância h entre os planos a e ß.
+        <br>
+        As arestas das bases são os lados (AB), (BC), (CD), (DE), (EA), (A' B' ), (B'C'), (C'D'), (D' E' ), (E'A').
+        <br>
+        As arestas laterais são os segmentos (AA'), (BB'), (CC'), (DD'), (EE').
+        <br>
+        As faces laterais são os paralelogramos (AA'BB'), (BB'C'C), (CC'D'D), (DD'E'E), (EE'A'A).
+    </h3>
+    <h2 style="color: white;">
+        Classificação dos prismas
+    </h2>
+    <img src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/prisma-reto-matematica.jpg" alt="">
+    <h3 style="color: white;">
+      Prisma reto:  A medida da altura é igual a medida das arestas laterais.
+    </h3>
+    <img src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/prisma-obliquo-matematica.jpg" alt="">
+    <h3 style="color: white;">
+      Prisma oblíquo: As arestas laterais formam um ângulo diferente de 90° com o plano das bases.
+    </h3>
+    <img src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/classificacao-prismas-matematica.jpg" alt="">
+    <h3 style="color: white;">Prisma regular:  seus lados apresentarem a mesma medida e todos os ângulos internos forem congruentes entre si. </h3>
+
+
+
+
+
+
+
+
 </body>
 </html>
