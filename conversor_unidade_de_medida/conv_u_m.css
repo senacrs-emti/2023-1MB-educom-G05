@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    float: left;
 }
 
 main{
@@ -41,26 +42,30 @@ main{
 
 #gluposo{
     margin-left: 390px;
-    width: 205px;
+    width: 204px;
     height: 20px;
 }
 
 #lodoso{
-    margin-left: 43px;
-    width: 205px;
+    margin-left: 49px;
+    width: 204px;
     height: 20px;
 }
 
 #gabigol{
-    margin-left: 400px;
-    margin-top: 20px;
-    float: left;
+    margin-left: 500px;
+    margin-top: 40px;
 }
 
 #gabigordo{
     padding: 3px;
     width: 313px;
-    margin-left: 500px;
-    margin-top: 18px;
+    margin-right: 0px;
+    margin-top: 40px;
     color: white;
+}
+
+#arrascaeta{
+    margin-top: 80px;
+    margin-left: 598px;
 }
