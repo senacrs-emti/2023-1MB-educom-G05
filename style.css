@@ -19,7 +19,7 @@ padding-top: 15px;
     font-size: medium;
     color: black;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 65px;
     border-radius: 10px;
     height: 30px;
     width: 250px;
@@ -80,26 +80,34 @@ h2{
 #fotocalculadora{
     width: 170px;
     height: 200px;
-    margin-left: 165px;
+    margin-left: 185px;
     margin-top: 12px;
 }
 #foto{
     width: 350px;
     height: 200px;
-    margin-left: 80px;
+    margin-left: 100px;
+    margin-top: 12px;
+}
+#fotojuros{
+    margin-left: 130px;
+    height: 200px;
+    width: 280px;
     margin-top: 12px;
 }
 #texto{
     margin-top: 15px;
-    margin-left: 25px;
+    margin-left: 80px;
     width: 70%;
+    text-align: center;
 }
 
 .work_link {
-    margin-left: 183px;
-    margin-top: 25px;
+    margin-left: 200px;
+    padding-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    color: cyan;
 }
 footer{
     background-color: cadetblue;
