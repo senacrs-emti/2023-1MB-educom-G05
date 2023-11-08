@@ -5,7 +5,7 @@
 }
 img{
     width: 30%;
-    margin-left: 420px;
+    margin-left: 445px;
     border-radius: 30px;
 }
 h1{
@@ -13,4 +13,25 @@ h1{
 }
 h2{
     text-align: justify;
+}
+footer{
+    width: 100%;
+    height: 225px;
+}
+button:hover{
+    cursor: pointer;
+}
+#botao{
+    margin-left: 70px;
+    width: 18%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: blanchedalmond;
+}
+footer h1{
+    padding-top: 50px;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }

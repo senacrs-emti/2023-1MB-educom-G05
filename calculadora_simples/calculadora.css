@@ -99,3 +99,11 @@ body{
 .equal {
     flex-basis: 70%;
 }
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: yellowgreen;
+}
+button:hover{
+    cursor: pointer;
+}
