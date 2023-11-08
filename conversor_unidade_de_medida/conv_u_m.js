@@ -250,3 +250,38 @@ function MSParaKmH(){
     alert(quilometrosporhora);
 
 }
+
+function Calculo(){
+    var calculo = document.getElementById('select').value;
+    var ladoA = document.getElementById('gluposo').value;
+    var ladoB = document.getElementById('lodoso').value;
+    
+    var operacao = calculo + ladoA + ladoB;
+    
+    switch (operacao) {
+        case 'COMAQBC':
+            QuilometrosParaCentimetros();
+            break;
+        case 'COMAQBM':
+            QuilometrosParaMetros();
+            break;
+        case 'COMAMBC':
+            MetrosParaCentimetros();
+            break;
+        case 'COMAMBQ':
+            MetrosParaQuilometros();
+            break;
+        case 'COMACBQ':
+            CentimetrosParaQuilometros();
+            break;
+        case 'COMACBM':
+            CentimetrosParaMetros();
+            break;
+        default:
+            break;
+    }
+
+
+}
+
+//http://devfuria.com.br/javascript/manipulando-combobox-select-com-javascript/
