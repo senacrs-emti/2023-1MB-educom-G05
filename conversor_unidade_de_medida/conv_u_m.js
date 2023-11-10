@@ -281,7 +281,32 @@ function Calculo(){
             break;
     }
 
-
 }
 
-//http://devfuria.com.br/javascript/manipulando-combobox-select-com-javascript/
+function SelecionarMedida(){
+    medida = document.forms[0].botafogo.value;
+
+    switch (medida) {
+        case 'COM':
+            var opcoes = '<option value="BQ">Quilômetro</option><option value="BM">Metro</option><option value="BC">Centímetro</option>';
+            break;
+        case 'MAS':
+            var opcoes = '<option value="BT">Tonelada</option><option value="BKg">Quilograma</option><option value="BG">Grama</option>';
+            break;
+        case 'TET':
+            var opcoes = '<option value="BCel">Celsius</option><option value="BFah">Fahrenheit</option><option value="BKel">Kelvin</option>';
+            break;
+        case 'TEM':
+            var opcoes = '<option value="AD">Dia</option><option value="BH">Hora</option><option value="BMin">Minuto</option><option value="BSeg">Segundo</option>';
+            break;
+        case 'VEL':
+            var opcoes = '<option value="BKmH">Quilômetro por hora</option><option value="BMS">Metro por hora</option>';
+            break;
+        default:
+            break;
+    }
+
+    document.getElementById("gluposo").innerHTML = opcoes;
+    document.getElementById("lodoso").innerHTML = opcoes;
+    alert(medida);
+}

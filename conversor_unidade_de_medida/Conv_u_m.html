@@ -12,13 +12,15 @@
     </header>
 
     <main>
-        <select name="Medida" id="select">
+        <form>
+        <select name="Medida" id="botafogo" onchange="SelecionarMedida()">
             <option value="COM">Comprimento</option>
             <option value="MAS">Massa</option>
             <option value="TET">Temperatura</option>
             <option value="TEM">Tempo</option>
             <option value="VEL">Velocidade</option>
         </select>
+        </form>
         <div id="portaseabrindo">
             <input type="number" name="Numero1" class="gosmanumero" id="valor">
             <h1>=</h1>
