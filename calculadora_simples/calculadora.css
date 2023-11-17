@@ -135,8 +135,9 @@ footer h2{
     font-size: medium;
     color: black;
     border-radius: 10px;
-    height: 30px;
     width: 250px;
+    height: 35px;
+    font-size: 15px;
 }
 img{
     width: 170px;

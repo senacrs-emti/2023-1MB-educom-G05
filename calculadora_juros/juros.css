@@ -95,14 +95,14 @@ footer{
     background-color: plum;
 }
 #botao{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
     color: black;
     margin-top: 50px;
     margin-left: 65px;
     border-radius: 10px;
-    height: 30px;
     width: 250px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 footer h1{
     font-family: Arial, Helvetica, sans-serif;
