@@ -19,11 +19,11 @@ padding-top: 15px;
     font-size: medium;
     color: black;
     margin-top: 20px;
-    margin-left: 65px;
+    margin-left: 148px;
     border-radius: 10px;
     height: 30px;
     width: 250px;
-    font-size: 15px;
+    font-size: 18px;
 }
 header a{
     text-decoration: none;
@@ -41,6 +41,9 @@ main{
 main h2{
     padding-top: 15px;
     font-size: 25px;
+}
+main a{
+    padding-top: 10px;
 }
 #calculadora{
     width: 40%;
