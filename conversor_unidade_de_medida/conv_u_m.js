@@ -252,12 +252,11 @@ function MSParaKmH(){
 }
 
 function Calculo(){
-    var calculo = document.getElementById('select').value;
+    var calculo = document.getElementById('botafogo').value;
     var ladoA = document.getElementById('gluposo').value;
     var ladoB = document.getElementById('lodoso').value;
     
     var operacao = calculo + ladoA + ladoB;
-    
     switch (operacao) {
         case 'COMAQBC':
             QuilometrosParaCentimetros();
@@ -276,6 +275,84 @@ function Calculo(){
             break;
         case 'COMACBM':
             CentimetrosParaMetros();
+            break;
+        case 'MASBTBKg':
+            TParaKg();
+            break;
+        case 'MASBTBG':
+            TParaG();
+            break;
+        case 'MASBKgBG':
+            KgParaG();
+            break;
+        case 'MASBKgBT':
+            KgParaT();
+            break;
+        case 'MASBGBKg':
+            GParaKg();
+            break;
+        case 'MASBGBT':
+            GParaT();
+            break;
+        case 'TETBCelBFah':
+            CelParaFah();
+            break;
+        case 'TETBCelBKel':
+            CelParaKel();
+            break;
+        case 'TETBFahBCel':
+            FahParaCel();
+            break;
+        case 'TETBFahBKel':
+            FahParaKel();
+            break;
+        case 'TETBKelBCel':
+            KelParaCel();
+            break;
+        case 'TETBKelBFah':
+            KelParaFah();
+            break;
+        case 'TEMBDBH':
+            DiaParaH();
+            break;
+        case 'TEMBDBMin':
+            DiaParaMin();
+            break;
+        case 'TEMBDBSeg':
+            DiaParaSeg();
+            break;
+        case 'TEMBHBD':
+            HParaDia();
+            break;
+        case 'TEMBHBMin':
+            HParaMin();
+            break;
+        case 'TEMBHBSeg':
+            HParaSeg();
+            break;
+        case 'TEMBMinBD':
+            MinParaDia();
+            break;
+        case 'TEMBMinBH':
+            MinParaH();
+            break;
+        case 'TEMBMinBSeg':
+            MinParaSeg();
+            break;
+        case 'TEMBSegBD':
+            SegParaDia();
+            break;
+        case 'TEMBSegBH':
+            SegParaH();
+            break;
+        case 'TEMBSegBMin':
+            SegParaMin();
+            break;
+        case 'VELBKmHBMS':
+            KmHParaMS();
+            break;
+        case 'VELBMSBKmH':
+            MSParaKmH();
             break;
         default:
             break;
@@ -297,7 +374,7 @@ function SelecionarMedida(){
             var opcoes = '<option value="BCel">Celsius</option><option value="BFah">Fahrenheit</option><option value="BKel">Kelvin</option>';
             break;
         case 'TEM':
-            var opcoes = '<option value="AD">Dia</option><option value="BH">Hora</option><option value="BMin">Minuto</option><option value="BSeg">Segundo</option>';
+            var opcoes = '<option value="BD">Dia</option><option value="BH">Hora</option><option value="BMin">Minuto</option><option value="BSeg">Segundo</option>';
             break;
         case 'VEL':
             var opcoes = '<option value="BKmH">Quilômetro por hora</option><option value="BMS">Metro por hora</option>';
@@ -308,5 +385,5 @@ function SelecionarMedida(){
 
     document.getElementById("gluposo").innerHTML = opcoes;
     document.getElementById("lodoso").innerHTML = opcoes;
-    alert(medida);
+
 }

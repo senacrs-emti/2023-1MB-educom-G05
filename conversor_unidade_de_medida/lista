@@ -33,7 +33,7 @@ Tempo
     <option value="ASeg">Segundo</option>
 </select>
 <select name="germesbem" id="lodoso">
-    <option value="AD">Dia</option>
+    <option value="BD">Dia</option>
     <option value="BH">Hora</option>
     <option value="BMin">Minuto</option>
     <option value="BSeg">Segundo</option>
