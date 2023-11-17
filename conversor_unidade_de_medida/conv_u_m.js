@@ -3,7 +3,7 @@ function QuilometrosParaMetros(){
     var metros = quilometros * 1000;
 
     document.getElementById('resultado').value = metros;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de quilômetros por 1000"
 }
 
 function QuilometrosParaCentimetros(){
@@ -11,7 +11,7 @@ function QuilometrosParaCentimetros(){
     var centímetros = quilometros * 100000;
 
     document.getElementById('resultado').value = centímetros;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de quilômetros por 100000"
 }
 
 function MetrosParaQuilometros(){
@@ -19,6 +19,7 @@ function MetrosParaQuilometros(){
     var quilometros = metros / 1000;
 
     document.getElementById('resultado').value = quilometros;
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de metros por 1000"
 }
 
 function MetrosParaCentimetros(){
@@ -26,13 +27,15 @@ function MetrosParaCentimetros(){
     var centimetros = metros * 100;
 
     document.getElementById('resultado').value = centimetros;
-    
-}function CentimetrosParaQuilometros(){
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de metros por 100"
+}
+
+function CentimetrosParaQuilometros(){
     var centimetros = document.getElementById('valor').value;
     var quilometros = centimetros / 100000;
 
     document.getElementById('resultado').value = quilometros;
-    
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de centímetros por 100000"
 }
 
 function CentimetrosParaMetros(){
@@ -40,7 +43,7 @@ function CentimetrosParaMetros(){
     var metros = centimetros / 100;
 
     document.getElementById('resultado').value = metros;
-    
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de centímetros por 100"
 }
 
 function KgParaG(){
@@ -48,7 +51,7 @@ function KgParaG(){
     var gramas = quilogramas * 1000;
 
     document.getElementById('resultado').value = gramas;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de quilogramas por 1000"
 }
 
 function KgParaT(){
@@ -56,7 +59,7 @@ function KgParaT(){
     var toneladas = quilogramas / 1000;
 
     document.getElementById('resultado').value = toneladas;
-
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de quilogramas por 1000"
 }
 
 function GParaKg(){
@@ -64,7 +67,7 @@ function GParaKg(){
     var quilogramas = gramas / 1000;
 
     document.getElementById('resultado').value = quilogramas;
-
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de gramas por 1000"
 }
 
 function GParaT(){
@@ -72,7 +75,7 @@ function GParaT(){
     var toneladas = gramas / 1000000;
 
     document.getElementById('resultado').value = toneladas;
-
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de gramas por 1000000"
 }
 
 function TParaKg(){
@@ -80,7 +83,7 @@ function TParaKg(){
     var quilogramas = toneladas * 1000;
 
     document.getElementById('resultado').value = quilogramas;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de toneladas por 1000"
 }
 
 function TParaG(){
@@ -88,7 +91,7 @@ function TParaG(){
     var gramas = toneladas * 1000000;
 
     document.getElementById('resultado').value = gramas;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de toneladas por 1000000"
 }
 
 function CelParaFah(){
@@ -96,7 +99,7 @@ function CelParaFah(){
     var fahrenheit = (celsius * 9/5) + 32;
 
     document.getElementById('resultado').value = fahrenheit;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de celcius por 9/5 e adicione 32"
 }
 
 function CelParaKel(){
@@ -104,7 +107,7 @@ function CelParaKel(){
     var kelvin = (celsius * 1) + 273.15;
 
     document.getElementById('resultado').value = kelvin;
-
+    document.getElementById('gabigordo').innerHTML = "Adicione 273,15 no valor de celsius"
 }
 
 function FahParaCel(){
@@ -112,7 +115,7 @@ function FahParaCel(){
     var celsius = (fahrenheit - 32) * 5/9;
 
     document.getElementById('resultado').value = celsius;
-
+    document.getElementById('gabigordo').innerHTML = "Diminua o valor de fahrenheit por 32 e multiplique o resultado por 5/9"
 }
 
 function FahParaKel(){
@@ -120,7 +123,7 @@ function FahParaKel(){
     var kelvin = (fahrenheit - 32) * 5/9 + 273.15;
 
     document.getElementById('resultado').value = kelvin;
-
+    document.getElementById('gabigordo').innerHTML = "Diminua o valor de fahrenheit por 32, multiplique o resultado por 5/9 e adicione 273,15"
 }
 
 function KelParaCel(){
