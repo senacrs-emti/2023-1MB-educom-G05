@@ -10,8 +10,17 @@ img{
 }
 h1{
     text-align: center;
-    font-style: white;
+    color: white;
 }
 h2{
     text-align: justify;
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white ;
 }
