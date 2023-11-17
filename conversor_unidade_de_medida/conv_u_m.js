@@ -2,7 +2,7 @@ function QuilometrosParaMetros(){
     var quilometros = document.getElementById('valor').value;
     var metros = quilometros * 1000;
 
-    alert(metros);
+    document.getElementById('resultado').value = metros;
 
 }
 
@@ -10,7 +10,7 @@ function QuilometrosParaCentimetros(){
     var quilometros = document.getElementById('valor').value;
     var centímetros = quilometros * 100000;
 
-    alert(centímetros);
+    document.getElementById('resultado').value = centímetros;
 
 }
 
@@ -18,20 +18,20 @@ function MetrosParaQuilometros(){
     var metros = document.getElementById('valor').value;
     var quilometros = metros / 1000;
 
-    alert(quilometros);
+    document.getElementById('resultado').value = quilometros;
 }
 
 function MetrosParaCentimetros(){
     var metros = document.getElementById('valor').value;
     var centimetros = metros * 100;
 
-    alert(centimetros);
+    document.getElementById('resultado').value = centimetros;
     
 }function CentimetrosParaQuilometros(){
     var centimetros = document.getElementById('valor').value;
     var quilometros = centimetros / 100000;
 
-    alert(quilometros);
+    document.getElementById('resultado').value = quilometros;
     
 }
 
@@ -39,7 +39,7 @@ function CentimetrosParaMetros(){
     var centimetros = document.getElementById('valor').value;
     var metros = centimetros / 100;
 
-    alert(metros);
+    document.getElementById('resultado').value = metros;
     
 }
 
@@ -47,7 +47,7 @@ function KgParaG(){
     var quilogramas = document.getElementById('valor').value;
     var gramas = quilogramas * 1000;
 
-    alert(gramas);
+    document.getElementById('resultado').value = gramas;
 
 }
 
@@ -55,7 +55,7 @@ function KgParaT(){
     var quilogramas = document.getElementById('valor').value;
     var toneladas = quilogramas / 1000;
 
-    alert(toneladas);
+    document.getElementById('resultado').value = toneladas;
 
 }
 
@@ -63,7 +63,7 @@ function GParaKg(){
     var gramas = document.getElementById('valor').value;
     var quilogramas = gramas / 1000;
 
-    alert(quilogramas);
+    document.getElementById('resultado').value = quilogramas;
 
 }
 
@@ -71,7 +71,7 @@ function GParaT(){
     var gramas = document.getElementById('valor').value;
     var toneladas = gramas / 1000000;
 
-    alert(toneladas);
+    document.getElementById('resultado').value = toneladas;
 
 }
 
@@ -79,7 +79,7 @@ function TParaKg(){
     var toneladas = document.getElementById('valor').value;
     var quilogramas = toneladas * 1000;
 
-    alert(quilogramas);
+    document.getElementById('resultado').value = quilogramas;
 
 }
 
@@ -87,7 +87,7 @@ function TParaG(){
     var toneladas = document.getElementById('valor').value;
     var gramas = toneladas * 1000000;
 
-    alert(gramas);
+    document.getElementById('resultado').value = gramas;
 
 }
 
@@ -95,7 +95,7 @@ function CelParaFah(){
     var celsius = document.getElementById('valor').value;
     var fahrenheit = (celsius * 9/5) + 32;
 
-    alert(fahrenheit);
+    document.getElementById('resultado').value = fahrenheit;
 
 }
 
@@ -103,7 +103,7 @@ function CelParaKel(){
     var celsius = document.getElementById('valor').value;
     var kelvin = (celsius * 1) + 273.15;
 
-    alert(kelvin);
+    document.getElementById('resultado').value = kelvin;
 
 }
 
@@ -111,7 +111,7 @@ function FahParaCel(){
     var fahrenheit = document.getElementById('valor').value;
     var celsius = (fahrenheit - 32) * 5/9;
 
-    alert(celsius);
+    document.getElementById('resultado').value = celsius;
 
 }
 
@@ -119,7 +119,7 @@ function FahParaKel(){
     var fahrenheit = document.getElementById('valor').value;
     var kelvin = (fahrenheit - 32) * 5/9 + 273.15;
 
-    alert(kelvin);
+    document.getElementById('resultado').value = kelvin;
 
 }
 
@@ -127,7 +127,7 @@ function KelParaCel(){
     var kelvin = document.getElementById('valor').value;
     var celsius = kelvin - 273.15;
 
-    alert(celsius);
+    document.getElementById('resultado').value = celsius;
 
 }
 
@@ -135,7 +135,7 @@ function KelParaFah(){
     var kelvin = document.getElementById('valor').value;
     var fahrenheit = (kelvin - 273.15) * 9/5 + 32;
 
-    alert(fahrenheit);
+    document.getElementById('resultado').value = fahrenheit;
 
 }
 
@@ -143,7 +143,7 @@ function SegParaMin(){
     var segundos = document.getElementById('valor').value;
     var minutos = segundos / 60;
 
-    alert(minutos);
+    document.getElementById('resultado').value = minutos;
 
 }
 
@@ -151,7 +151,7 @@ function SegParaH(){
     var segundos = document.getElementById('valor').value;
     var horas = segundos / 3600;
 
-    alert(horas);
+    document.getElementById('resultado').value = horas;
 
 }
 
@@ -159,7 +159,7 @@ function SegParaDia(){
     var segundos = document.getElementById('valor').value;
     var dias = segundos / 86400;
 
-    alert(dias);
+    document.getElementById('resultado').value = dias;
 
 }
 
@@ -167,7 +167,7 @@ function MinParaSeg(){
     var minutos = document.getElementById('valor').value;
     var segundos = minutos * 60;
 
-    alert(segundos);
+    document.getElementById('resultado').value = segundos;
 
 }
 
@@ -175,7 +175,7 @@ function MinParaH(){
     var minutos = document.getElementById('valor').value;
     var horas = minutos / 60;
 
-    alert(horas);
+    document.getElementById('resultado').value = horas;
 
 }
 
@@ -183,7 +183,7 @@ function MinParaDia(){
     var minutos = document.getElementById('valor').value;
     var dias = minutos / 1440;
 
-    alert(dias);
+    document.getElementById('resultado').value = dias;
 
 }
 
@@ -191,7 +191,7 @@ function HParaSeg(){
     var horas = document.getElementById('valor').value;
     var segundos = horas * 3600;
 
-    alert(segundos);
+    document.getElementById('resultado').value = segundos;
 
 }
 
@@ -199,7 +199,7 @@ function HParaMin(){
     var horas = document.getElementById('valor').value;
     var minutos = horas * 60;
 
-    alert(minutos);
+    document.getElementById('resultado').value = minutos;
 
 }
 
@@ -207,7 +207,7 @@ function HParaDia(){
     var horas = document.getElementById('valor').value;
     var dias = horas / 24;
 
-    alert(dias);
+    document.getElementById('resultado').value = dias;
 
 }
 
@@ -215,7 +215,7 @@ function DiaParaSeg(){
     var dias = document.getElementById('valor').value;
     var segundos = dias * 86400;
 
-    alert(segundos);
+    document.getElementById('resultado').value = segundos;
 
 }
 
@@ -223,7 +223,7 @@ function DiaParaMin(){
     var dias = document.getElementById('valor').value;
     var minutos = dias * 1440;
 
-    alert(minutos);
+    document.getElementById('resultado').value = minutos;
 
 }
 
@@ -231,7 +231,7 @@ function DiaParaH(){
     var dias = document.getElementById('valor').value;
     var horas = dias * 24;
 
-    alert(horas);
+    document.getElementById('resultado').value = horas;
 
 }
 
@@ -239,7 +239,7 @@ function KmHParaMS(){
     var quilometrosporhora = document.getElementById('valor').value;
     var metrosporsegundo = quilometrosporhora / 3.6;
 
-    alert(metrosporsegundo);
+    document.getElementById('resultado').value = metrosporsegundo;
 
 }
 
@@ -247,7 +247,7 @@ function MSParaKmH(){
     var metrosporsegundo = document.getElementById('valor').value;
     var quilometrosporhora = metrosporsegundo * 3.6;
 
-    alert(quilometrosporhora);
+    document.getElementById('resultado').value = quilometrosporhora;
 
 }
 
