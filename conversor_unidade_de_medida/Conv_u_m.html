@@ -12,17 +12,41 @@
     </header>
 
     <main>
+        <div id="peixoto">
+        <form>
+        <select name="Medida" id="botafogo" onchange="SelecionarMedida()">
+            <option value="COM">Comprimento</option>
+            <option value="MAS">Massa</option>
+            <option value="TET">Temperatura</option>
+            <option value="TEM">Tempo</option>
+            <option value="VEL">Velocidade</option>
+        </select>
+        </form>
+        <div id="portaseabrindo">
+            <input type="number" name="Numero1" class="gosmanumero" id="valor">
+            <h1>=</h1>
+            <input type="number" name="Numero2" class="gosmanumero" id="resultado">
+        </div>
+            <select name="germesbem" id="gluposo">
+                <option value="AQ">Quilômetro</option>
+                <option value="AM">Metro</option>
+                <option value="AC">Centímetro</option>
+            </select>
+            <select name="germesbem" id="lodoso">
+                <option value="BQ">Quilômetro</option>
+                <option value="BM">Metro</option>
+                <option value="BC">Centímetro</option>
+            </select>
+        <p id="gabigol" style="color: black; background-color: yellow; width: 55px; border-radius: 5px; padding: 2px;">Fórmula</p>
+        <div id="gabigordo">-</div>
 
+        <input id="arrascaeta" type="button" id="Calcula" value="Calcular" onclick="Calculo()">
+        </div>
     </main>
 
     <footer>
 
     </footer>
-
-
-
-
-
 
     <script src="./conv_u_m.js"></script>
 </body>

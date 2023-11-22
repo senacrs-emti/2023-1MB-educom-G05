@@ -1,0 +1,51 @@
+Massa
+
+<select name="germesbem" id="gluposo">
+    <option value="AT">Tonelada</option>
+    <option value="AKg">Quilograma</option>
+    <option value="AG">Grama</option>
+</select>
+<select name="germesbem" id="lodoso">
+    <option value="BT">Tonelada</option>
+    <option value="BKg">Quilograma</option>
+    <option value="BG">Grama</option>
+</select>
+
+Temperatura
+
+<select name="germesbem" id="gluposo">
+    <option value="ACel">Celsius</option>
+    <option value="AFah">Fahrenheit</option>
+    <option value="AKel">Kelvin</option>
+</select>
+<select name="germesbem" id="lodoso">
+    <option value="BCel">Celsius</option>
+    <option value="BFah">Fahrenheit</option>
+    <option value="BKel">Kelvin</option>
+</select>
+
+Tempo
+
+<select name="germesbem" id="gluposo">
+    <option value="AD">Dia</option>
+    <option value="AH">Hora</option>
+    <option value="AMin">Minuto</option>
+    <option value="ASeg">Segundo</option>
+</select>
+<select name="germesbem" id="lodoso">
+    <option value="BD">Dia</option>
+    <option value="BH">Hora</option>
+    <option value="BMin">Minuto</option>
+    <option value="BSeg">Segundo</option>
+</select>
+
+Velocidade
+
+<select name="germesbem" id="gluposo">
+    <option value="AKmH">Quilômetro por hora</option>
+    <option value="AMS">Metro por hora</option>
+</select>
+<select name="germesbem" id="lodoso">
+    <option value="BKmH">Quilômetro por hora</option>
+    <option value="BMS">Metro por hora</option>
+</select>
