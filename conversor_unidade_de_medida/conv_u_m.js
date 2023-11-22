@@ -131,7 +131,7 @@ function KelParaCel(){
     var celsius = kelvin - 273.15;
 
     document.getElementById('resultado').value = celsius;
-
+    document.getElementById('gabigordo').innerHTML = "Diminua 273,15 no valor de kelvin"
 }
 
 function KelParaFah(){
@@ -139,7 +139,7 @@ function KelParaFah(){
     var fahrenheit = (kelvin - 273.15) * 9/5 + 32;
 
     document.getElementById('resultado').value = fahrenheit;
-
+    document.getElementById('gabigordo').innerHTML = "Diminua 273,15 no valor de kelvin, multiplique o resultado por 9/5 e adicione 32"
 }
 
 function SegParaMin(){
@@ -147,7 +147,7 @@ function SegParaMin(){
     var minutos = segundos / 60;
 
     document.getElementById('resultado').value = minutos;
-
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de segundos por 60"
 }
 
 function SegParaH(){
@@ -155,7 +155,7 @@ function SegParaH(){
     var horas = segundos / 3600;
 
     document.getElementById('resultado').value = horas;
-
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de segundos por 3600"
 }
 
 function SegParaDia(){
@@ -163,7 +163,7 @@ function SegParaDia(){
     var dias = segundos / 86400;
 
     document.getElementById('resultado').value = dias;
-
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de segundos por 86400"
 }
 
 function MinParaSeg(){
@@ -171,7 +171,7 @@ function MinParaSeg(){
     var segundos = minutos * 60;
 
     document.getElementById('resultado').value = segundos;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de minutos por 60"
 }
 
 function MinParaH(){
@@ -179,7 +179,7 @@ function MinParaH(){
     var horas = minutos / 60;
 
     document.getElementById('resultado').value = horas;
-
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de minutos por 60"
 }
 
 function MinParaDia(){
@@ -187,7 +187,7 @@ function MinParaDia(){
     var dias = minutos / 1440;
 
     document.getElementById('resultado').value = dias;
-
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de minutos por 1440"
 }
 
 function HParaSeg(){
@@ -195,7 +195,7 @@ function HParaSeg(){
     var segundos = horas * 3600;
 
     document.getElementById('resultado').value = segundos;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de horas por 3600"
 }
 
 function HParaMin(){
@@ -203,7 +203,7 @@ function HParaMin(){
     var minutos = horas * 60;
 
     document.getElementById('resultado').value = minutos;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de horas por 60"
 }
 
 function HParaDia(){
@@ -211,7 +211,7 @@ function HParaDia(){
     var dias = horas / 24;
 
     document.getElementById('resultado').value = dias;
-
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de horas por 24"
 }
 
 function DiaParaSeg(){
@@ -219,7 +219,7 @@ function DiaParaSeg(){
     var segundos = dias * 86400;
 
     document.getElementById('resultado').value = segundos;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de dias por 86400"
 }
 
 function DiaParaMin(){
@@ -227,7 +227,7 @@ function DiaParaMin(){
     var minutos = dias * 1440;
 
     document.getElementById('resultado').value = minutos;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de dias por 1440"
 }
 
 function DiaParaH(){
@@ -235,7 +235,7 @@ function DiaParaH(){
     var horas = dias * 24;
 
     document.getElementById('resultado').value = horas;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de dias por 24"
 }
 
 function KmHParaMS(){
@@ -243,7 +243,7 @@ function KmHParaMS(){
     var metrosporsegundo = quilometrosporhora / 3.6;
 
     document.getElementById('resultado').value = metrosporsegundo;
-
+    document.getElementById('gabigordo').innerHTML = "Divida o valor de Km/H por 3,6"
 }
 
 function MSParaKmH(){
@@ -251,7 +251,7 @@ function MSParaKmH(){
     var quilometrosporhora = metrosporsegundo * 3.6;
 
     document.getElementById('resultado').value = quilometrosporhora;
-
+    document.getElementById('gabigordo').innerHTML = "Multiplique o valor de m/s por 3,6"
 }
 
 function Calculo(){
