@@ -42,7 +42,7 @@ main{
 }
 main h2{
     padding-top: 15px;
-    font-size: 25px;
+    font-size: 28px;
 }
 main a{
     padding-top: 10px;
@@ -94,9 +94,9 @@ h2{
     margin-top: 12px;
 }
 #foto{
-    width: 350px;
+    width: 330px;
     height: 200px;
-    margin-left: 100px;
+    margin-left: 110px;
     margin-top: 12px;
 }
 #fotoformula{
