@@ -261,22 +261,22 @@ function Calculo(){
     
     var operacao = calculo + ladoA + ladoB;
     switch (operacao) {
-        case 'COMAQBC':
+        case 'COMBQBC':
             QuilometrosParaCentimetros();
             break;
-        case 'COMAQBM':
+        case 'COMBQBM':
             QuilometrosParaMetros();
             break;
-        case 'COMAMBC':
+        case 'COMBMBC':
             MetrosParaCentimetros();
             break;
-        case 'COMAMBQ':
+        case 'COMBMBQ':
             MetrosParaQuilometros();
             break;
-        case 'COMACBQ':
+        case 'COMBCBQ':
             CentimetrosParaQuilometros();
             break;
-        case 'COMACBM':
+        case 'COMBCBM':
             CentimetrosParaMetros();
             break;
         case 'MASBTBKg':
