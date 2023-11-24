@@ -30,6 +30,7 @@ main{
     margin-top: 100px;
     margin-left: 500px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #portaseabrindo{
@@ -38,6 +39,7 @@ main{
     margin-top: 50px;
     margin-left: 340px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #portaseabrindo h1{
@@ -54,6 +56,7 @@ main{
     height: 70px;
     font-size: 60px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #gluposo{
@@ -62,6 +65,7 @@ main{
     height: 40px;
     font-size: 25px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #lodoso{
@@ -70,6 +74,7 @@ main{
     height: 40px;
     font-size: 25px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #gabigol{
@@ -95,6 +100,7 @@ main{
     font-size: 25px;
     border-radius: 10px;
     border: 5px black;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
@@ -112,6 +118,7 @@ a{
     height: 30px;
     float: left;
     margin: 17px;
+    cursor: pointer;
 }
 footer{
     width: 100%;
