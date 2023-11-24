@@ -1,11 +1,3 @@
-<style>
-
-
-</style>    
-
-
-
-
 
 <h1 align="center">
     PFM - Projeto Facilitador de Matemática
