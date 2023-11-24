@@ -69,3 +69,8 @@ O objetivo desse trabalho é auxiliar quem queira estudar sobre conteúdos de
 matemática, sejem eles do primeiro, segundo ou terceiro ano ensino médio
 <br>
 Nós chegaremos nesse objetivo por meio de calculadoras e fórmulas. 
+
+
+
+
+
