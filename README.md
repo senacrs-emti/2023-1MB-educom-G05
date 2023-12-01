@@ -34,7 +34,7 @@ Objetivo:
 <br>
 Auxiliar estudantes a compreeender os cálculos matemáticos por meio de um
 <br>
-site onde envole fórmulas para conteúdos, duas calculadoras e um 
+site onde envolve fórmulas para conteúdos, duas calculadoras e um 
 <br>
 conversor de unidades de medidas, sobre conteúdos de primeiro, segundo e terceiro
 <br>
@@ -44,7 +44,7 @@ ano do ensino médio.
 Justificativa:
 </b>
 <br>
-Devido a dificuladade que alguns estudantes têm em entender como funciona
+Devido a dificuldade que alguns estudantes têm em entender como funciona
 <br>
 algumas fórmulas ou conteúdos na matemática, ou seja, o motivo da escolha desse tema é facilitar
 <br>
@@ -66,6 +66,6 @@ Introdução:
 <br>
 O objetivo desse trabalho é auxiliar quem queira estudar sobre conteúdos de 
 <br>
-matemática, sejem eles do primeiro, segundo ou terceiro ano ensino médio
+matemática, sejem eles do primeiro, segundo ou terceiro ano ensino médio.
 <br>
 Nós chegaremos nesse objetivo por meio de calculadoras e fórmulas. 
