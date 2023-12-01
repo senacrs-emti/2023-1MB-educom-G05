@@ -32,7 +32,7 @@ Matemática(Conteúdo do ensino médio)
 Objetivo:
 </b>
 <br>
-Auxiliar estudantes a compreeender os cálcullaos matemáticos por meio de um
+Auxiliar estudantes a compreeender os cálculos matemáticos por meio de um
 <br>
 site onde envole fórmulas para conteúdos, duas calculadoras e um 
 <br>
@@ -69,8 +69,3 @@ O objetivo desse trabalho é auxiliar quem queira estudar sobre conteúdos de
 matemática, sejem eles do primeiro, segundo ou terceiro ano ensino médio
 <br>
 Nós chegaremos nesse objetivo por meio de calculadoras e fórmulas. 
-
-
-
-
-
