@@ -380,7 +380,7 @@ function SelecionarMedida(){
             var opcoes = '<option value="BD">Dia</option><option value="BH">Hora</option><option value="BMin">Minuto</option><option value="BSeg">Segundo</option>';
             break;
         case 'VEL':
-            var opcoes = '<option value="BKmH">Quilômetro por hora</option><option value="BMS">Metro por hora</option>';
+            var opcoes = '<option value="BKmH">Quilômetro por hora</option><option value="BMS">Metros por segundo</option>';
             break;
         default:
             break;
